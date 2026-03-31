@@ -1,0 +1,11 @@
+views:
+  - type: cards
+    name: Table
+    order:
+      - file.basename
+      - file.tags
+      - file.ctime
+    imageFit: contain
+    image: note.tags
+  - type: table
+    name: View
