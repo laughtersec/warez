@@ -14,7 +14,7 @@ const config: QuartzConfig = {
     enablePopovers: true,
     analytics: {
       provider: "google",
-      tagID: "G-Y4T8ZGQTTM"
+      tagId: "G-Y4T8ZGQTTM"
     },
     locale: "en-US",
     baseUrl: "laughtersec.github.io/warez",
