@@ -8,24 +8,26 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Quartz 4",
+    pageTitle: "Warez",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
-      provider: "plausible",
+      provider: "google",
+      tagID: "G-Y4T8ZGQTTM"
     },
     locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
+    baseUrl: "laughtersec.github.io/warez",
     ignorePatterns: ["private", "templates", ".obsidian"],
-    defaultDateType: "modified",
+    defaultDateType: "created",
     theme: {
       fontOrigin: "googleFonts",
-      cdnCaching: true,
+      cdnCaching: false,
       typography: {
-        header: "Schibsted Grotesk",
+        title: "Libre Barcode 128",
+        header: "Orbitron",
         body: "Source Sans Pro",
-        code: "IBM Plex Mono",
+        code: "Source Code Pro",
       },
       colors: {
         lightMode: {
@@ -95,3 +97,4 @@ const config: QuartzConfig = {
 }
 
 export default config
+
