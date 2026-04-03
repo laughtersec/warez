@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-04-03T11:26:46.375+05:30
-modified: 2026-04-03T12:53:30.479+05:30
-published: 2026-04-03T12:53:30.479+05:30
+modified: 2026-04-03T13:02:23.212+05:30
+published: 2026-04-03T13:02:23.212+05:30
 tags:
   - payload-encryption
 ---
@@ -32,3 +32,5 @@ VOID XorByOneKey(IN PBYTE pShellcode, IN SIZE_T sShellcodeSize, IN BYTE bKey)
 	}
 }
 ```
+
+Best for obscuring strings.
