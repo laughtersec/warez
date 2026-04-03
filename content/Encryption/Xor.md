@@ -1,10 +1,11 @@
 ---
 publish: true
 created: 2026-04-03T11:26:46.375+05:30
-modified: 2026-04-03T13:02:23.212+05:30
-published: 2026-04-03T13:02:23.212+05:30
+modified: 2026-04-03T13:08:11.454+05:30
+published: 2026-04-03T13:08:11.454+05:30
 tags:
   - payload-encryption
+  - string-obscurement
 ---
 
 Its a good choice because it doesn't require libraries and can be easily implemented, and is faster than [[RC4]] and [[AES]]. The same implementation can be used for encryption _and_ decryption.
