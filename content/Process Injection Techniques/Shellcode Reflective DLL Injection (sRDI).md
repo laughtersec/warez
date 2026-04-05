@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-04-04T13:29:18.078+05:30
-modified: 2026-04-05T11:52:06.755+05:30
-published: 2026-04-05T11:52:06.755+05:30
+modified: 2026-04-05T11:53:07.429+05:30
+published: 2026-04-05T11:53:07.429+05:30
 tags:
   - reflective
 ---
@@ -23,7 +23,7 @@ In the example, the shellcode is placed in the resource section. We can theoreti
 
 ## Preliminaries
 
-Lets try to understand what happened here.
+Lets try to understand what happened [here](https://github.com/monoxgas/sRDI/).
 
 Looking at the python or powershell script that is responsible to convert the DLL to **shellcode**, we find that it arranges all the instructions in the following manner:
 
