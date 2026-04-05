@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-04-04T13:29:18.078+05:30
-modified: 2026-04-05T11:44:34.390+05:30
-published: 2026-04-05T11:44:34.390+05:30
+modified: 2026-04-05T11:52:06.755+05:30
+published: 2026-04-05T11:52:06.755+05:30
 tags:
   - reflective
 ---
@@ -35,5 +35,5 @@ Lets break down each part
 
 - **bootstrap**: What it really does is setup locations of _rdishellcode_, _dllBytes_ and _userData_ so that it can be flawlessly referenced throughout the execution of the **shellcode**.
 - **rdiShellcode**: These are the instructions which will reflectively load the DLL into the process like in [[Reflective DLL Injection]].
-- **dllBytes**: This is your DLL that you passed to the script and is stored byte by byte, which will be reflectively loaded by the **rdiShellcode**.
+- **dllBytes**: This is your DLL that you passed to the script and is stored byte by byte, which will be reflectively loaded by **rdiShellcode**.
 - **userData**: This is optional, and by default is set to "None".
