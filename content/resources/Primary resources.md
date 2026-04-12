@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2025-08-19T18:06:02.577+05:30
-modified: 2026-04-04T17:47:09.411+05:30
-published: 2026-04-04T17:47:09.411+05:30
+modified: 2026-04-12T11:52:55.885+05:30
+published: 2026-04-12T11:52:55.885+05:30
 tags:
   - sitations
 ---
@@ -14,3 +14,5 @@ tags:
 - https://github.com/SafeBreach-Labs/PoolParty ([[Thread Pooling]])
 - https://github.com/CCob/ThreadlessInject ([[Threadless Execution]])
 - https://github.com/Maldev-Academy/RemoteTLSCallbackInjection/blob/main/RemoteTLSCallbackInjection/main.c ([[TLS Callback Injection]])
+- https://github.com/mgeeky/ThreadStackSpoofer ([[Thread Stack Spoofing]])
+- https://deepmalware.com/
