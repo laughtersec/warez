@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2025-09-21T10:27:33.055+05:30
-modified: 2026-03-21T11:06:53.336+05:30
-published: 2026-03-21T11:06:53.336+05:30
+modified: 2026-06-06T19:00:24.424+05:30
+published: 2026-06-06T19:00:24.424+05:30
 tags:
   - EnumProcess
   - OpenProcess
@@ -27,10 +27,14 @@ Bypasses static analysis methods that rely on import table inspection. (Because 
  <...>
  PEB*  peb;
  <...>
-  __asm {
-	  mov eax, fs: [0x30]
-	  mov peb, eax
-  }  
+#ifdef _WIN64
+    peb = reinterpret_cast<PPEB>(__readgsqword(0x60));
+#else
+    __asm {
+        mov eax, fs: [0x30]
+        mov peb, eax
+    }
+#endif // _WIN64
 ```
 
 Pretty neat huh, who would've thought that the pointer to the PEB is stored in a register for a process. (Actually, you would've thought of it if you knew to check a non-volatile register)
