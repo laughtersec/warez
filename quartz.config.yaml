@@ -2,6 +2,9 @@
 configuration:
   locale: en-US
   baseUrl: laughtersec.github.io/warez
+  pageTitle: warez
+  pageTitleSuffix: warez
+  enablePopovers: true
 plugins:
   - source: github:quartz-community/alias-redirects
     enabled: true
