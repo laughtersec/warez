@@ -363,6 +363,13 @@ plugins:
     options:
       numPages: 10
     order: 50
+  - source: github:quartz-community/obsidian-plugin-excalidraw
+    enabled: true
+    order: 50
+    options:
+      enableInteraction: true
+      darkMode: auto
+      exportPadding: 20
 layout:
   groups:
     toolbar:
