@@ -1,5 +1,7 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
-configuration: {}
+configuration:
+  locale: en-US
+  baseUrl: laughtersec.github.io/warez
 plugins:
   - source: github:quartz-community/alias-redirects
     enabled: true
@@ -160,8 +162,8 @@ plugins:
     enabled: true
     options:
       links:
-        GitHub: https://github.com/laughtersec
-        Discord Community: https://discord.gg/jByxKBmJ9T
+        GitHub: https://github.com/jackyzha0/quartz
+        Discord Community: https://discord.gg/cRFFHYye7t
     order: 50
     layout:
       position: footer
