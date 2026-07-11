@@ -5,6 +5,9 @@ configuration:
   pageTitle: warez
   pageTitleSuffix: warez
   enablePopovers: true
+  theme:
+    cdnCachine: true
+    fontOrigin: "googleFonts"
 plugins:
   - source: github:quartz-community/alias-redirects
     enabled: true
@@ -284,7 +287,9 @@ plugins:
       repo: github:saberzero1/quartz-themes
       subdir: plugin
     enabled: true
-    options: {}
+    options:
+      theme: "cyberglow"
+      mode: both
     order: 50
   - source: github:quartz-community/reader-mode
     enabled: true
