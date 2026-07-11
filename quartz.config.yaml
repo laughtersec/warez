@@ -4,7 +4,7 @@ plugins:
   - source: github:quartz-community/alias-redirects
     enabled: true
     options:
-      enableCaseRedirects: true
+      enableCaseRedirects: false
     order: 50
   - source: github:quartz-community/article-title
     enabled: true
