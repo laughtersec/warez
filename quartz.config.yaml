@@ -295,7 +295,7 @@ plugins:
       priority: 35
       display: all
   - source: github:quartz-community/recent-notes
-    enabled: true
+    enabled: false
     options: {}
     order: 50
   - source: github:quartz-community/remove-draft
