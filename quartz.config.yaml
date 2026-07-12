@@ -18,7 +18,7 @@ configuration:
     cdnCaching: true
     typography:
       title: Libre Barcode 39
-      header: Libre Barcode 39
+      header: Inconsolata
       body: Inconsolata
       code: IBM Plex Mono
     colors:
