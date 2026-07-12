@@ -1,3 +1,7 @@
+---
+title: warez
+---
+
 Table of contents
 
 | Process Injection Techniques                | Win32 API used                                                                                                                                                                                                                                            | MITRE ATT\&CK | Detection      |
