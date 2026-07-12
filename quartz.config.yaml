@@ -4,7 +4,16 @@ configuration:
   baseUrl: laughtersec.github.io/warez
   pageTitle: warez
   pageTitleSuffix: warez
+  enableSPA: true
   enablePopovers: true
+  analytics: {
+    provider: 'google',
+    tagId: 'G-Y4T8ZGQTTM'
+  }
+  ignorePatterns:
+    - private
+    - templates
+    - .obsidian
   theme:
     fontOrigin: googleFonts
     cdnCaching: true
