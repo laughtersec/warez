@@ -321,9 +321,9 @@ plugins:
       repo: github:saberzero1/quartz-themes
       subdir: plugin
     enabled: true
-    options:
-      theme: "cyberglow"
-      mode: both
+    #options:
+    #  theme: "cyberglow"
+    #  mode: both
     order: 50
   - source: github:quartz-community/reader-mode
     enabled: true
