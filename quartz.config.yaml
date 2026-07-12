@@ -6,8 +6,8 @@ configuration:
   pageTitleSuffix: warez
   enablePopovers: true
   theme:
-    cdnCachine: true
-    fontOrigin: "googleFonts"
+    cdnCaching: true
+    fontOrigin: googleFonts
 plugins:
   - source: github:quartz-community/alias-redirects
     enabled: true
