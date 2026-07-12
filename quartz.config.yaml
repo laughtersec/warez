@@ -3,7 +3,7 @@ configuration:
   locale: en-US
   baseUrl: laughtersec.github.io/warez
   pageTitle: warez
-  pageTitleSuffix: warez
+  #pageTitleSuffix: warez
   enableSPA: false
   enablePopovers: true
   analytics:
