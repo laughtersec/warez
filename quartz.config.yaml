@@ -20,7 +20,6 @@ configuration:
       header: Schibsted Grotesk
       body: Source Sans Pro
       code: IBM Plex Mono
-      title: Libre Barcode 128
     colors:
       lightMode:
         light: "#faf8f8"
@@ -202,8 +201,8 @@ plugins:
     enabled: true
     options:
       links:
-        GitHub: https://github.com/laughtersec
-        'Malectrica Discord': https://discord.gg/jByxKBmJ9T
+        GitHub: https://github.com/jackyzha0/quartz
+        Discord Community: https://discord.gg/cRFFHYye7t
     order: 50
     layout:
       position: footer
@@ -323,7 +322,7 @@ plugins:
     enabled: true
     order: 50
     options:
-      theme: 80s-neon
+      theme: w95
   - source: github:quartz-community/reader-mode
     enabled: true
     options: {}
