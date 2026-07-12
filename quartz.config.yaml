@@ -3,7 +3,6 @@ configuration:
   locale: en-US
   baseUrl: laughtersec.github.io/warez
   pageTitle: warez
-  #pageTitleSuffix: warez
   enableSPA: false
   enablePopovers: true
   analytics:
@@ -65,7 +64,7 @@ plugins:
       priority: 30
       display: all
   - source: github:quartz-community/bases-page
-    enabled: false
+    enabled: true
     options:
       defaultViewType: table
       linkResolution: shortest
@@ -200,9 +199,9 @@ plugins:
   - source: github:quartz-community/footer
     enabled: true
     options:
-      links: 
-        GitHub: 'https://github.com/laughtersec/warez'
-        Malectrica Discord: 'https://discord.gg/jByxKBmJ9T'
+      links:
+        GitHub: https://github.com/laughtersec/warez
+        Malectrica Discord: https://discord.gg/jByxKBmJ9T
     order: 50
     layout:
       position: footer
