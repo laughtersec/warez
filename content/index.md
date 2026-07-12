@@ -1,5 +1,7 @@
 ---
-title: warez
+publish: true
+title: index
+created: 2025-08-19T18:03:26.147+05:30
 ---
 
 Table of contents
