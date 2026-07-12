@@ -65,7 +65,7 @@ plugins:
       priority: 30
       display: all
   - source: github:quartz-community/bases-page
-    enabled: true
+    enabled: false
     options:
       defaultViewType: table
       linkResolution: shortest
