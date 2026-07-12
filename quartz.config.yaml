@@ -45,7 +45,7 @@ plugins:
   - source: github:quartz-community/alias-redirects
     enabled: true
     options:
-      enableCaseRedirects: false
+      enableCaseRedirects: true
     order: 50
   - source: github:quartz-community/article-title
     enabled: true
