@@ -17,8 +17,9 @@ configuration:
     fontOrigin: googleFonts
     cdnCaching: true
     typography:
-      header: Schibsted Grotesk
-      body: Source Sans Pro
+      title: Libre Barcode 39
+      header: Libre Barcode 39
+      body: Inconsolata
       code: IBM Plex Mono
     colors:
       lightMode:
