@@ -4,7 +4,7 @@ configuration:
   baseUrl: laughtersec.github.io/warez
   pageTitle: warez
   pageTitleSuffix: warez
-  enableSPA: true
+  enableSPA: false
   enablePopovers: true
   analytics:
     provider: google
