@@ -200,9 +200,8 @@ plugins:
   - source: github:quartz-community/footer
     enabled: true
     options:
-      links:
-        GitHub: https://github.com/jackyzha0/quartz
-        Discord Community: https://discord.gg/cRFFHYye7t
+      links: '{"GitHub":"https://github.com/laughtersec/warez","Malectrica
+        Discord":"https://discord.gg/jByxKBmJ9T"}'
     order: 50
     layout:
       position: footer
