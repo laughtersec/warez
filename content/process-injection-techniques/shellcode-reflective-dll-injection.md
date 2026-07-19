@@ -33,6 +33,6 @@ return bootstrap + rdiShellcode + dllBytes + userData
 Lets break down each part
 
 - **bootstrap**: What it really does is setup locations of _rdishellcode_, _dllBytes_ and _userData_ so that it can be flawlessly referenced throughout the execution of the **shellcode**.
-- **rdiShellcode**: These are the instructions which will reflectively load the DLL into the process like in [[reflective-dll-injection]].
+- **rdiShellcode**: These are the instructions which will reflectively load the DLL into the process like in [reflective-dll-injection](process-injection-techniques/reflective-dll-injection.md).
 - **dllBytes**: This is your DLL that you passed to the script and is stored byte by byte, which will be reflectively loaded by **rdiShellcode**.
 - **userData**: This is optional, and by default is set to "None".
