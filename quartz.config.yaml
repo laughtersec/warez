@@ -90,7 +90,7 @@ plugins:
       maxZoom: 5
     order: 50
   - source: github:quartz-community/citations
-    enabled: false
+    enabled: true
     options: {}
     order: 50
   - source: github:quartz-community/cname
@@ -321,7 +321,7 @@ plugins:
     enabled: true
     order: 50
     options:
-      theme: cyberglow
+      theme: cyber-glow
   - source: github:quartz-community/reader-mode
     enabled: true
     options: {}
