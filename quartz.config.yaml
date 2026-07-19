@@ -321,7 +321,7 @@ plugins:
     enabled: true
     order: 50
     options:
-      theme: retroos-98
+      theme: cyberglow
   - source: github:quartz-community/reader-mode
     enabled: true
     options: {}
