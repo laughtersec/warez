@@ -1,5 +1,6 @@
 ---
 publish: true
+title: RWX Hunting&Injection
 created: 2025-08-20T16:01:57.394+05:30
 tags:
   - NtGetNextProcess

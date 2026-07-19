@@ -1,5 +1,6 @@
 ---
 publish: true
+title: Address Of Entry Point Injection
 created: 2025-09-06T17:36:42.081+05:30
 tags:
   - NtQueryInformationProcess

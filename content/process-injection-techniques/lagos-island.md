@@ -1,5 +1,6 @@
 ---
 publish: true
+title: Lagos Island
 created: 2025-08-19T20:04:18.246+05:30
 tags:
   - CreateFile
@@ -33,7 +34,7 @@ tags:
 
 ## Observation
 
-This is somewhat a variant of [[reflective-dll-injection]], except we are reflectively loading an unhooked/unmodified system DLL, and using its exported functions to execute our own shellcode via [[classic-code-injection-local-process]].
+This is somewhat a variant of [[reflective-dll-injection]], except we are reflectively loading an unhooked/unmodified system DLL, and using its exported functions to execute our own shellcode via Classic Code Injection (Local Process).
 
 ## Preliminaries
 

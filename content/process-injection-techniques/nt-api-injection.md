@@ -1,5 +1,6 @@
 ---
 publish: true
+title: NT API Injection
 created: 2025-09-20T10:37:54.502+05:30
 tags:
   - EnumProcess

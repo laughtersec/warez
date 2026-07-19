@@ -1,5 +1,6 @@
 ---
 publish: true
+title: Classic Code Injection VirtualProtect
 created: 2025-08-20T19:08:23.036+05:30
 tags:
   - CreateToolhelp32Snapshot

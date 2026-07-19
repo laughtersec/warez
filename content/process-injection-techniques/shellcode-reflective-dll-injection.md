@@ -1,5 +1,6 @@
 ---
 publish: true
+title: sRDI
 created: 2026-04-04T13:29:18.078+05:30
 tags:
   - reflective

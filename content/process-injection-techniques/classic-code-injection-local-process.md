@@ -1,5 +1,6 @@
 ---
 publish: true
+title: Classic Code Injection Local Process
 created: 2025-08-20T17:16:00.921+05:30
 tags:
   - VirtualAlloc

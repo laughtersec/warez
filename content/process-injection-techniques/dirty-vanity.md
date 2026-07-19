@@ -1,5 +1,6 @@
 ---
 publish: true
+title: Dirty Vanity
 created: 2025-09-20T12:01:48.433+05:30
 tags:
   - NtAllocateVirtualMemory

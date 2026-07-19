@@ -1,5 +1,6 @@
 ---
 publish: true
+title: Classic Code Injection With API Obfuscation
 created: 2025-09-04T19:07:02.265+05:30
 tags:
   - CreateToolhelp32Snapshot

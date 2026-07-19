@@ -1,5 +1,6 @@
 ---
 publish: true
+title: NtCreateSection and NtMapViewOfSection
 created: 2025-08-20T20:29:27.094+05:30
 tags:
   - NtCreateSection

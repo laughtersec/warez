@@ -15,7 +15,7 @@ tags:
 
 ## Observations
 
-This is the combination of [[peb-walk-injection]] and [[Classic Code Injection With API Obfuscation]]. The names of the functions we need are obfuscated before getting a pointer to them via PEB walking.
+This is the combination of [[peb-walk-injection]] and [[classic-code-injection-with-api-obfuscation]]. The names of the functions we need are obfuscated before getting a pointer to them via PEB walking.
 
 ## Working
 
