@@ -361,7 +361,7 @@ plugins:
     order: 15
     layout:
       position: left
-      priority: 15
+      priority: 5
       display: all
   - source: github:quartz-community/stacked-pages
     enabled: true
