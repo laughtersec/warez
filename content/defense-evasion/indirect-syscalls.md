@@ -1,5 +1,6 @@
 ---
 publish: true
+title: Indirect Syscalls
 created: 2025-08-19T19:42:12.844+05:30
 tags:
   - EnumProcess

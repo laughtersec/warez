@@ -1,5 +1,6 @@
 ---
 publish: true
+title: Xor
 created: 2026-04-03T11:26:46.375+05:30
 tags:
   - payload-encryption

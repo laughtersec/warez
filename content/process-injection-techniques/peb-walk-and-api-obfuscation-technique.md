@@ -1,5 +1,6 @@
 ---
 publish: true
+title: PEB Walk and API Obfuscation Technique
 created: 2025-10-02T11:51:34.745+05:30
 tags:
   - EnumProcess

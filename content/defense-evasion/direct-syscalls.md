@@ -1,5 +1,6 @@
 ---
 publish: true
+title: Direct Syscalls
 created: 2025-08-20T11:09:46.137+05:30
 tags:
   - CreateToolhelp32Snapshot

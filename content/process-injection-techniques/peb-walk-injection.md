@@ -1,5 +1,6 @@
 ---
 publish: true
+title: PEB Walk Injection
 created: 2025-09-21T10:27:33.055+05:30
 tags:
   - EnumProcess
