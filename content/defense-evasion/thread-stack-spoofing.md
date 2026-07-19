@@ -166,6 +166,6 @@ We also apparently need to flush the instructions cache just in case our hook di
 }
 ```
 
-The rest is just functionality and semantics where the structures are initialized, typedefs are reinterpreted and these functions are called. Moreover, it reads shellcode using which it performs [[classic-code-injection-local-process]] (although any technique can be used in conjunction with hooking). The shellcode, if it uses `SleepEx`, will end up passing through our trampoline to a local function (MySleep) that we defined.
+The rest is just functionality and semantics where the structures are initialized, typedefs are reinterpreted and these functions are called. Moreover, it reads shellcode using which it performs [classic-code-injection-local-process](process-injection-techniques/classic-code-injection-local-process.md) (although any technique can be used in conjunction with hooking). The shellcode, if it uses `SleepEx`, will end up passing through our trampoline to a local function (MySleep) that we defined.
 
 We can add such trampolines to any other Windows API function and redirect execution to our local implementation of it.

@@ -13,7 +13,7 @@ tags:
 
 ## Observation
 
-This technique ==solves the issue of EDRs flagging RWX regions== in a process as suspicious, as seen in [[classic-code-injection-local-process]] and  [[rwx-hunting-and-injection]]. A memory region with RW permissions is first created, then its permissions are changed to RX using `VirtualProtect`.
+This technique ==solves the issue of EDRs flagging RWX regions== in a process as suspicious, as seen in [classic-code-injection-local-process](process-injection-techniques/classic-code-injection-local-process.md) and  [rwx-hunting-and-injection](process-injection-techniques/rwx-hunting-and-injection.md). A memory region with RW permissions is first created, then its permissions are changed to RX using `VirtualProtect`.
 
 ## Working
 
