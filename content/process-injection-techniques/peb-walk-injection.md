@@ -248,4 +248,4 @@ ptrCreateRemoteThread = (CRTType)ptrGetProcAddress(kernel32Base, "CreateRemoteTh
 hThread = ptrCreateRemoteThread(hProcess, NULL, 0, (LPTHREAD_START_ROUTINE)pRemoteCode, NULL, 0, NULL);
 ```
 
-And like this, we just ran [[classic-code-injection-remote-process]] using PEB walking.
+And like this, we just ran [classic-code-injection-remote-process](process-injection-techniques/classic-code-injection-remote-process.md) using PEB walking.
