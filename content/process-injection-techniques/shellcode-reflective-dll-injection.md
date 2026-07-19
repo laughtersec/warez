@@ -1,6 +1,6 @@
 ---
 publish: true
-title: sRDI
+title: sRDI (Shellcode Reflective DLL Injection)
 created: 2026-04-04T13:29:18.078+05:30
 tags:
   - reflective
@@ -11,7 +11,7 @@ tags:
 It is based on the same principle behind [[reflective-dll-injection]], except we are loading our own shellcode, which in itself acts as a loader for the DLL appended to our shellcode.
 
 - We don't need to use `CreateFile` to read our DLL byte by byte from disk, because it is in-memory, appended to our loader's shellcode.
-- The loader shellcode is an in-memory PE loader like in [[reflective-dll-injection]] (PE headers, sections, entry point) and executes functions exported by our DLL.
+- The loader shellcode is an in-memory PE loader like in [reflective-dll-injection](process-injection-techniques/reflective-dll-injection.md) (PE headers, sections, entry point) and executes functions exported by our DLL.
   The whole thing is just this huge shellcode that will be stored somewhere in the PE file, and we only need to execute it from somewhere.
 
 ## Working
