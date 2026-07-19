@@ -16,7 +16,6 @@ configuration:
     fontOrigin: googleFonts
     cdnCaching: true
     typography:
-      title: Libre Barcode 128
       header: Schibsted Grotesk
       body: Source Sans Pro
       code: IBM Plex Mono
@@ -322,7 +321,7 @@ plugins:
     enabled: true
     order: 50
     options:
-      theme: cyber-glow
+      theme: brainhack
   - source: github:quartz-community/reader-mode
     enabled: true
     options: {}
