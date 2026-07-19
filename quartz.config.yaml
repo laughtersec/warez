@@ -16,7 +16,6 @@ configuration:
     fontOrigin: googleFonts
     cdnCaching: true
     typography:
-      title: Libre Barcode 39
       header: Schibsted Grotesk
       body: Source Sans Pro
       code: IBM Plex Mono
@@ -362,7 +361,7 @@ plugins:
     order: 15
     layout:
       position: left
-      priority: 5
+      priority: 15
       display: all
   - source: github:quartz-community/stacked-pages
     enabled: true
