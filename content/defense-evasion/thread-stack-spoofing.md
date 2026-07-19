@@ -19,6 +19,8 @@ tags:
 
 It was created to bypass thread-based memory examination. It is done by hooking the functions we would like to call (by prepending a trampoline)
 
+![](evasion/ThreadStackSpoofing.canvas)
+
 ## Preliminaries
 
 If you're following [this PoC](https://github.com/mgeeky/ThreadStackSpoofer), then certain structures and typedefs that can be defined for our convenience
