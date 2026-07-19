@@ -19,7 +19,7 @@ tags:
 
 It was created to bypass thread-based memory examination. It is done by hooking the functions we would like to call (by prepending a trampoline)
 
-![[abstract/ThreadStackSpoofing.canvas]]
+![[defense-evasion/abstract/ThreadStackSpoofing.canvas]]
 
 ## Preliminaries
 
