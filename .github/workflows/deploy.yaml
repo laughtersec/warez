@@ -40,8 +40,6 @@ jobs:
             ${{ runner.os }}-plugins-
       - name: Install Dependencies
         run: npm ci
-      - name: Rebuild sharp for current platform
-        run: npm rebuild sharp
       - name: Install Quartz plugins
         run: npx quartz plugin install
       - name: Build Quartz
