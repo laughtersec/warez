@@ -99,7 +99,7 @@ plugins:
     options: {}
     order: 50
   - source: github:quartz-community/comments
-    enabled: true
+    enabled: false
     options: {}
     order: 50
   - source: github:quartz-community/content-index
@@ -319,7 +319,7 @@ plugins:
       name: quartz-themes
       repo: github:saberzero1/quartz-themes
       subdir: plugin
-    enabled: false
+    enabled: true
     order: 50
     options:
       theme: cyberglow
