@@ -7,7 +7,7 @@ configuration:
   enablePopovers: true
   analytics:
     provider: google
-    tagId: G-Y4T8ZGQTTM
+    tagId: G-LDGDRF6N5V
   ignorePatterns:
     - private
     - templates
