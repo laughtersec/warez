@@ -392,7 +392,7 @@ plugins:
       priority: 50
       display: all
   - source: github:quartz-community/tag-list
-    enabled: true
+    enabled: false
     options: {}
     order: 50
   - source: github:quartz-community/tag-page
