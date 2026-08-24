@@ -322,7 +322,7 @@ plugins:
     enabled: true
     order: 50
     options:
-      theme: 80s-neon
+      theme: green-nightmare
   - source: github:quartz-community/reader-mode
     enabled: true
     options: {}
